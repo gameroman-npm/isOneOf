@@ -5,9 +5,9 @@
   "module": "src/index.ts",
   "type": "module",
   "main": "src/index.ts",
-  "files": [
-    "src"
-  ],
+  "scripts": {
+    "npm:publish": "bun publish"
+  },
   "keywords": [
     "isoneof",
     "type",
@@ -19,9 +19,6 @@
   ],
   "author": "GameRoMan",
   "license": "MIT",
-  "devDependencies": {
-    "@types/bun": "latest"
-  },
   "peerDependencies": {
     "typescript": "^5.9.2"
   }
