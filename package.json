@@ -1,25 +1,11 @@
 {
   "name": "isoneof",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Type-safe utility to check if a value is one of a list of allowed values",
-  "module": "src/index.ts",
-  "type": "module",
-  "main": "src/index.ts",
-  "scripts": {
-    "npm:publish": "bun publish"
-  },
-  "keywords": [
-    "isoneof",
-    "type",
-    "typescript",
-    "types",
-    "safe",
-    "typesafe",
-    "utility"
-  ],
-  "author": "GameRoMan",
   "license": "MIT",
-  "peerDependencies": {
-    "typescript": "^5.9.2"
-  }
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gameroman-npm/isOneOf.git"
+  },
+  "type": "module"
 }
